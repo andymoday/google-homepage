@@ -1,0 +1,53 @@
+#logo {
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 20px;
+    padding-top: 180px;
+}
+ul {
+    list-style-type: none;
+    margin: 20px;
+    color:#111111;
+    width: 100%;
+  }
+li {
+    display: inline;
+}
+#topnavbar {
+    position: fixed;
+    top: 0;
+    padding: 0;
+}
+
+#signin {
+    background-color: rgba(0, 38, 255, 0.945);
+    color: white;
+}
+#logo {
+ 
+    margin:auto;
+    padding: 75px 270px 0px 270px;
+}
+form {
+    margin: auto;
+}
+#searchbar {
+
+    margin:auto;
+    margin-top: 20px;
+    width: 600px;
+    font-size: 20px;
+    height: 2em;
+    border-radius: 100px:
+    border-opacity: 0.5;
+}
+
+#bottomnavbar {
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+}
+#form-section {
+    margin: 0px 380px 0px 380px;
+}
+
