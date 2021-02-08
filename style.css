@@ -1,55 +1,221 @@
-#logo {
-    padding-left: 500px;
-    padding-right: 500px;
-    padding-bottom: 20px;
-    padding-top: 180px;
-}
-ul {
-    list-style-type: none;
-    margin: 20px;
-    color:#111111;
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-li {
-    display: inline;
-}
+/*-----------NAVBAR-------------*/
 #topnavbar {
     position: fixed;
-    top: 0;
-    padding: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
 }
 
-#signin {
-    background-color: rgba(0, 38, 255, 0.945);
-    color: white;
+#topnavbar ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0 0 20px;
+    overflow:hidden;
+    width: 100%;
 }
+
+#topnavbar ul li { 
+    display:inline;
+    padding-right: 10px; 
+}
+
+#topnavbar ul li a {
+    display:inline-block;
+    margin-top: 5px; 
+}
+
+.top-left-text { 
+    font-size: 12px; 
+    text-align: center;
+    padding: 10px 10px ;
+    color: rgba(22, 21, 21, 0.87); 
+    text-decoration: none ;
+}
+
+.top-right-text {
+    float: right;
+    font-size: 12px; 
+    text-align: center;
+    padding: 10px 10px ;
+    color: rgba(22, 21, 21, 0.87); 
+    text-decoration: none ;
+}
+.top-right {
+    float: right;
+    padding-right: 10px;
+}
+
+#logo-image {
+    float: right;
+    margin: 0 10px;
+    padding-top: 4px;
+}
+
+#sign-in {
+    border-style: solid;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin: 0px 35px 0 10px;
+    background-color: rgba(0, 102, 255, 0.945);
+    color: white ;
+}
+
+/*------------MAIN LOGO-----------------*/
 #logo {
- 
     margin:auto;
     padding: 75px 270px 0px 270px;
 }
+/*----------------FORM SECTIOM--------------------*/
 form {
     margin: auto;
 }
-#searchbar {
 
+.searchbar {
     margin:auto;
-    margin-top: 20px;
-    width: 600px;
+    margin-top: 18px 0 0 10px;
+    width: 550px;
     font-size: 20px;
     height: 2em;
-    border-radius: 100px:
-    border-opacity: 0.5;
+    border-radius: 100px;
+    border-style: solid;
+    opacity: 0.5;
+}
+.search-icon {
+    position: absolute;
+    top: 288px;
+    left: 415px;
+    width: 14px;
+  }
+  #form-section {
+    margin: 0px 380px 0px 380px;
+}
+#lucky-button {
+    position: absolute;
+    top: 350px;
+    right: 545px;
+    width: 140px;
+    height: 3em;
+    background:rgb(242, 247, 248);
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
 }
 
+#search-button {
+    position: absolute;
+    top: 350px;
+    left: 540px;
+    width: 140px;
+    height: 3em;
+    background:rgb(242, 247, 248);
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+}
+
+/*--------------------BOTTOM NAVBAR---------------------*/
 #bottomnavbar {
     position: fixed;
     bottom: 0;
-    padding: 0;
+    left: 0;
+    background-color: rgb(242, 244, 247);
+    width: 100%;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(241, 229, 211);
+    overflow:hidden;
 }
-#form-section {
-    margin: 0px 380px 0px 380px;
+#bottomnavbar ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 20px;
+    overflow:hidden;
+    width: 100%;
+    height:2em;
 }
+#bottomnavbar ul li { 
+    display:inline;
+    margin-left: 0px; 
+}
+
+#bottomnavbar ul li a {
+    display:inline-block; 
+}
+.bottom-left-text {
+    font-size: 13px;
+    text-align: center;
+    color: rgba(56, 52, 52, 0.87);
+    text-decoration: none ;
+    padding: 0px 15px 0px 0px;
+    margin-top: 5px;
+}
+.leaf-img {
+    position:fixed;
+    margin:10px 0 0 550px;     
+}
+.bottom-center-text {
+    position: fixed;
+    margin:10px 0 0 570px;
+    font-size: 13px; 
+    text-align: center;
+    color: rgba(56, 52, 52, 0.87);
+    text-decoration: none ;
+}
+
+.bottom-right-text {
+    float: right;
+    font-size: 13px; 
+    text-align: center;
+    padding:  0px 40px 10px 0px;
+    color:rgba(56, 52, 52, 0.87); 
+    text-decoration: none ;
+    margin-top: 5px;
+    
+}
+
+#secondbottomnavbar {
+    position: fixed;
+    left: 0;
+    bottom: 38px; ;
+    background-color: rgb(242, 244, 247);
+    width: 100%;
+    height: 2.5em;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(241, 229, 211);
+    text-align:center;
+    padding-top: 0;
+    overflow: hidden;
+    
+}
+#secondbottomnavbar ul{
+    list-style-type: none;
+    padding: 0 0 20px 20px;
+    overflow:hidden;
+    margin:12px 0 0 0;
+}
+
+
+.second-bottom-left-text {
+    float:left;
+    font-size: 13px;
+    text-align: center;
+    color: rgba(56, 52, 52, 0.87);
+    text-decoration: none ;
+    padding: 0px 0px 20px 0px;
+}
+
+
+
+
+
+
+
+
+
 

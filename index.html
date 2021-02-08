@@ -7,40 +7,60 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
   </head>
   <body>
-  <div id="topnavbar">
-    <ul>
-        <li><a style="font-size: 12px; color: rgba(22, 21, 21, 0.87); text-decoration: none ;padding: 0px 10px 0px 0px; float:left"href="about.asp">About</a></li>
-        <li><a style="font-size: 12px; color: rgba(22, 21, 21, 0.87); text-decoration: none ;padding: 0px 10px 0px 0px;; float:left"href="store.asp">Store</a></li>
-        <li id="signin"><a style="margin-top: 0px; font-size: 12px; text-decoration: none ; padding: 5px 10px 5px 10px; color: white; background-color: rgb(20, 97, 240); float:right;" href="sign-in.asp">Sign in</a></li>
-        <li><a style="font-size: 12px;color: rgba(22, 21, 21, 0.87); text-decoration: none ;padding: 0px 10px 0px 0px;; float:right" href="panel.asp">panel</a></li>
-        <li><a style="font-size: 12px;color: rgba(22, 21, 21, 0.87); text-decoration: none ;padding: 0px 10px 0px 0px;;float:right" href="images.asp">Images</a></li>
-        <li><a style="font-size: 12px; color: rgba(22, 21, 21, 0.87); text-decoration: none ;margin-left: 850px; padding: 0px 10px 0px 0px;;float:right" href="gmail.asp">Gmail</a></li>
+    <div id="topnavbar">
+      <ul>
+        <li><a class="top-left-text" href="about.asp">About</a></li>
+        <li><a class="top-left-text" href="store.asp">Store</a></li>
+        <li>
+          <a class="top-right" href="sign-in.asp">
+            <button id="sign-in" type="button"><strong>Sign in</strong>
+            </button>
+          </a>
+        </li>
+        <li><a id="logo-image" href="/">
+              <div>
+                <img src="images/google-apps.png" alt="google apps image" class="img-fluid">
+              </div>
+            </a>
+        </li>
+        <li><a class="top-right-text" href="images.asp">Images</a></li>
+        <li><a class="top-right-text" href="gmail.asp">Gmail</a></li>
       </ul> 
     </div>
 
-<div id="logo">
-  <img id="logo" src="images/googlelogo_color_272x92dp.png" alt="Google Logo">
-</div>
-<div id="form-section">
-    <form action="https.google.com"> 
+    <div id="logo">
+      <img id="logo" src="images/googlelogo_color_272x92dp.png" alt="Google Logo">
+    </div>
+    <div id="form-section">
+      <form action="https.google.com"> 
         <label for="searchbar">
-            <input id="searchbar" name = "searchbar" type="text" placeholder="enter your search here">
+            <img class="search-icon" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU2Ljk2NiA1Ni45NjYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDU2Ljk2NiA1Ni45NjY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPHBhdGggZD0iTTU1LjE0Niw1MS44ODdMNDEuNTg4LDM3Ljc4NmMzLjQ4Ni00LjE0NCw1LjM5Ni05LjM1OCw1LjM5Ni0xNC43ODZjMC0xMi42ODItMTAuMzE4LTIzLTIzLTIzcy0yMywxMC4zMTgtMjMsMjMgIHMxMC4zMTgsMjMsMjMsMjNjNC43NjEsMCw5LjI5OC0xLjQzNiwxMy4xNzctNC4xNjJsMTMuNjYxLDE0LjIwOGMwLjU3MSwwLjU5MywxLjMzOSwwLjkyLDIuMTYyLDAuOTIgIGMwLjc3OSwwLDEuNTE4LTAuMjk3LDIuMDc5LTAuODM3QzU2LjI1NSw1NC45ODIsNTYuMjkzLDUzLjA4LDU1LjE0Niw1MS44ODd6IE0yMy45ODQsNmM5LjM3NCwwLDE3LDcuNjI2LDE3LDE3cy03LjYyNiwxNy0xNywxNyAgcy0xNy03LjYyNi0xNy0xN1MxNC42MSw2LDIzLjk4NCw2eiIgZmlsbD0iIzAwMDAwMCIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+            <input class="searchbar" name = "searchbar" type="text">
             <br>
-            <button type="submit">Google Search</button>
-            <button type="submit">I'm Feeling Lucky</button>
+            <button id="search-button" type="submit">Google Search</button>
+            <button id="lucky-button" type="submit">I'm Feeling Lucky</button>
         </label>
-    </form>
-</div>
-<div id="bottomnavbar">
-  <ul>
-      <li><a style="float:left"href="advertising.asp">Advertising</a></li>
-      <li><a style="float:left"href="business.asp">Business</a></li>
-      <li><a style="float:left" href="how-search-works.asp">How Search works</a></li>
-      <li><a style="float:center" href="carbon-neutral-since-2007.asp">Carbon neutral since 2007</a></li>
-      <li><a style="float:right" href="settings.asp">Settings</a></li>
-      <li><a style="float:right" href="terms.asp">Terms</a></li>
-      <li><a style="float:right" href="privacy.asp">Privacy</a></li>
-    </ul> 
-  </div>
-</body>
+      </form>
+    </div>
+    <div id="secondbottomnavbar">
+      <ul>
+         <li><a class="second-bottom-left-text" href="united-kingdom.asp">United Kingdom</a></li>
+      </ul> 
+    </div>
+    
+    <div id="bottomnavbar">
+      <div class="carbon-div">
+        <img class="leaf-img" src="images/leaf.png" width="14" height="16" alt="leaf image">
+        <a class="bottom-center-text" href="carbon-neutral-since-2007.asp">Carbon neutral since 2007</a>
+      </div>
+      <ul>
+        <li><a class="bottom-left-text" href="advertising.asp">Advertising</a></li>
+        <li><a class="bottom-left-text" href="business.asp">Business</a></li>
+        <li><a class="bottom-left-text" href="how-search-works.asp">How Search works</a></li>
+        <li><a class="bottom-right-text" href="settings.asp">Settings</a></li>
+        <li><a class="bottom-right-text" href="terms.asp">Terms</a></li>
+        <li><a class="bottom-right-text" href="privacy.asp">Privacy</a></li>
+      </ul> 
+    </div>
+  </body>
 </html>
